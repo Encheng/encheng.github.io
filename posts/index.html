@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Posts &middot; My New Hugo Site</title>
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  
+  
+  
+  
+  <link href="https://encheng.github.io/css/concated.min.css" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" href="https://encheng.github.io/posts/index.xml" title="My New Hugo Site" />
+  
+  
+</head>
+
+  <body class="list-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="https://encheng.github.io" class="nav-text">My New Hugo Site</a></h1>
+  <div class="hamburger-menu">
+    <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+    <ul id="menu" class="hamburger-menu-overlay">
+      <li><a href="https://encheng.github.io" class="hamburger-menu-overlay-link">Home</a></li>
+      
+    </ul>
+  </div>
+</nav>
+    <main class="card-container side-gutter">
+      <header class="list-header">
+        <p class="list-header-subtext"></p>
+        <h1 class="list-header-title">Posts</h1>
+      </header>
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="https://encheng.github.io/posts/first-post/" class="card blog-card" rel="bookmark" >
+    
+  <article class="card-body">
+    <h2 class="card-title"></h2>
+    <p class="card-text">Google Map教學：操作地址 什麼是Google Map?是由Google公司像全球提供的電子地圖服務，用地圖規劃出地表、線條、符號等資訊。
+架構 我們比較常看到的用法，在文字框輸入想要地點或地址之後點查詢，地圖會自動刷新顯示地標以及相關資訊。
+製作Google Map需要google提供的google map API才能實做，今天我們使用Geocoding API裡的地理編碼請求與Map JavaScript API來實做，以下介紹兩種的官網文件資訊
+1. Geocoding API Geocoding為地理編碼，將地址（如“1600 Amphitheatre Parkway，Mountain View，CA”）轉換為地理坐標（如緯度37.423021和經度-122.083739）的過程，您可以使用它來在地圖上放置標記或定位地圖。
+您可以通過HTTP接口訪問Geocoding API。以下是地理編碼請求的示例。
+地理編碼請求和響應（緯度/經度查找） 以下示例請求“1600 Amphitheatre Parkway，Mountain View，CA”的緯度和經度，並指定輸出必須採用JSON格式。
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&amp;key=YOUR_API_KE  您可以通過在Web瀏覽器中輸入URL來進行測試（請務必YOUR_API_KEY使用實際的API密鑰替換 ）。響應包括地址的緯度和經度。
+以下是JSON中的地理編碼響應示例：
+{ &quot;results&quot; : [ { &quot;address_components&quot; : [ { &quot;long_name&quot; : &quot;1600&quot;, &quot;short_name&quot; : &quot;1600&quot;, &quot;types&quot; : [ &quot;street_number&quot; ] }, { &quot;long_name&quot; : &quot;Amphitheatre Pkwy&quot;, &quot;short_name&quot; : &quot;Amphitheatre Pkwy&quot;, &quot;types&quot; : [ &quot;route&quot; ] }, { &quot;long_name&quot; : &quot;Mountain View&quot;, &quot;short_name&quot; : &quot;Mountain View&quot;, &quot;types&quot; : [ &quot;locality&quot;, &quot;political&quot; ] }, { &quot;long_name&quot; : &quot;Santa Clara County&quot;, &quot;short_name&quot; : &quot;Santa Clara County&quot;, &quot;types&quot; : [ &quot;administrative_area_level_2&quot;, &quot;political&quot; ] }, { &quot;long_name&quot; : &quot;California&quot;, &quot;short_name&quot; : &quot;CA&quot;, &quot;types&quot; : [ &quot;administrative_area_level_1&quot;, &quot;political&quot; ] }, { &quot;long_name&quot; : &quot;United States&quot;, &quot;short_name&quot; : &quot;US&quot;, &quot;types&quot; : [ &quot;country&quot;, &quot;political&quot; ] }, { &quot;long_name&quot; : &quot;94043&quot;, &quot;short_name&quot; : &quot;94043&quot;, &quot;types&quot; : [ &quot;postal_code&quot; ] } ], &quot;formatted_address&quot; : &quot;1600 Amphitheatre Parkway, Mountain View, CA 94043, USA&quot;, &quot;geometry&quot; : { &quot;location&quot; : { &quot;lat&quot; : 37.</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="0001-01-01">Jan 1, 0001</time></p>
+      
+    </div>
+  </article>
+</a>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+  
+  <script src="https://encheng.github.io/js/core.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>
