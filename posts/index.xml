@@ -5,24 +5,17 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://encheng.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
+      <title>Google Map教學：操作地址</title>
       <link>https://encheng.github.io/posts/first-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://encheng.github.io/posts/first-post/</guid>
-      <description>Google Map教學：操作地址 什麼是Google Map?是由Google公司像全球提供的電子地圖服務，用地圖規劃出地表、線條、符號等資訊。
-架構 我們比較常看到的用法，在文字框輸入想要地點或地址之後點查詢，地圖會自動刷新顯示地標以及相關資訊。
-製作Google Map需要google提供的google map API才能實做，今天我們使用Geocoding API裡的地理編碼請求與Map JavaScript API來實做，以下介紹兩種的官網文件資訊
-1. Geocoding API Geocoding為地理編碼，將地址（如“1600 Amphitheatre Parkway，Mountain View，CA”）轉換為地理坐標（如緯度37.423021和經度-122.083739）的過程，您可以使用它來在地圖上放置標記或定位地圖。
-您可以通過HTTP接口訪問Geocoding API。以下是地理編碼請求的示例。
-地理編碼請求和響應（緯度/經度查找） 以下示例請求“1600 Amphitheatre Parkway，Mountain View，CA”的緯度和經度，並指定輸出必須採用JSON格式。
-https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&amp;amp;key=YOUR_API_KE  您可以通過在Web瀏覽器中輸入URL來進行測試（請務必YOUR_API_KEY使用實際的API密鑰替換 ）。響應包括地址的緯度和經度。
-以下是JSON中的地理編碼響應示例：
-{ &amp;quot;results&amp;quot; : [ { &amp;quot;address_components&amp;quot; : [ { &amp;quot;long_name&amp;quot; : &amp;quot;1600&amp;quot;, &amp;quot;short_name&amp;quot; : &amp;quot;1600&amp;quot;, &amp;quot;types&amp;quot; : [ &amp;quot;street_number&amp;quot; ] }, { &amp;quot;long_name&amp;quot; : &amp;quot;Amphitheatre Pkwy&amp;quot;, &amp;quot;short_name&amp;quot; : &amp;quot;Amphitheatre Pkwy&amp;quot;, &amp;quot;types&amp;quot; : [ &amp;quot;route&amp;quot; ] }, { &amp;quot;long_name&amp;quot; : &amp;quot;Mountain View&amp;quot;, &amp;quot;short_name&amp;quot; : &amp;quot;Mountain View&amp;quot;, &amp;quot;types&amp;quot; : [ &amp;quot;locality&amp;quot;, &amp;quot;political&amp;quot; ] }, { &amp;quot;long_name&amp;quot; : &amp;quot;Santa Clara County&amp;quot;, &amp;quot;short_name&amp;quot; : &amp;quot;Santa Clara County&amp;quot;, &amp;quot;types&amp;quot; : [ &amp;quot;administrative_area_level_2&amp;quot;, &amp;quot;political&amp;quot; ] }, { &amp;quot;long_name&amp;quot; : &amp;quot;California&amp;quot;, &amp;quot;short_name&amp;quot; : &amp;quot;CA&amp;quot;, &amp;quot;types&amp;quot; : [ &amp;quot;administrative_area_level_1&amp;quot;, &amp;quot;political&amp;quot; ] }, { &amp;quot;long_name&amp;quot; : &amp;quot;United States&amp;quot;, &amp;quot;short_name&amp;quot; : &amp;quot;US&amp;quot;, &amp;quot;types&amp;quot; : [ &amp;quot;country&amp;quot;, &amp;quot;political&amp;quot; ] }, { &amp;quot;long_name&amp;quot; : &amp;quot;94043&amp;quot;, &amp;quot;short_name&amp;quot; : &amp;quot;94043&amp;quot;, &amp;quot;types&amp;quot; : [ &amp;quot;postal_code&amp;quot; ] } ], &amp;quot;formatted_address&amp;quot; : &amp;quot;1600 Amphitheatre Parkway, Mountain View, CA 94043, USA&amp;quot;, &amp;quot;geometry&amp;quot; : { &amp;quot;location&amp;quot; : { &amp;quot;lat&amp;quot; : 37.</description>
+      <description>什麼是Google Map?是由Google公司像全球提供的電子地圖服務，用地圖規劃出地表、線條、符號等資訊。</description>
     </item>
   </channel>
 </rss>
